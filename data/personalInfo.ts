@@ -4,7 +4,7 @@ import * as resumeInfo from "@/app/components/models/resumeInfo"
 export const personal: resumeInfo.personalData = {
     name: "Ahmed uddin Siddiqui",
     role: "Manager Ancillary Aapplications Development",
-    education: ["Master of Science in Computer Science"],
+    education: ["Masters in Computer Science"],
     contactLinks: [
         "mailto: emailto:aus1st@gmail.com",
         "https://twitter.com/IamAhmedSiddiqui",
@@ -17,7 +17,9 @@ export const personal: resumeInfo.personalData = {
 export const about: resumeInfo.aboutMe = {
     title: "About me",
     body: [
-        "Dynamic leader of software development team offering 10 years of experience managing crucial and mission critical project. Expert in translating business requirements into technical solutions and keen about quality, usability, security, and scalability"
+        "Dynamic leader of software development team offering 10 years of experience",
+        "managing crucial and mission critical project. Expert in translating business requirements",
+        "into technical solutions and keen about quality, usability, security, and scalability"
     ]
 }
 

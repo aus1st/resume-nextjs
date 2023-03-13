@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    h1{
+        @apply text-yellow-500 text-5xl sm:text-6xl
+    }
+    h2{
+        @apply text-2xl
+    }
+    h3{
+        @apply text-xl
+    }
+    h4{
+        @apply text-xl
+    }
+    p{
+        @apply text-base
+    }
+    h1{
+        @apply text-base
+    }
+   
+    
+}
+.icons-contactme {
+    @apply text-2xl m-2;
+}

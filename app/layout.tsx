@@ -1,6 +1,6 @@
+import  './global.css'
 import SideBar from './components/sidebar'
 
-import { personal } from '../data/personalInfo';
 
 export const metadata = {
   title: 'Create Next App',
@@ -14,9 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='flex flex-col sm:flex-row'>
         <SideBar/>
+        
+        <main className='grow-full p-16 w-full sm:basis-2/3 ml-auto'>
         {children}
+        </main>
         </body>
     </html>
   )
