@@ -18,7 +18,7 @@ export const about: resumeInfo.aboutMe = {
     title: "About me",
     body: [
         "Dynamic leader of software development team offering 10 years of experience",
-        "managing crucial and mission critical project. Expert in translating business requirements",
+        "managing crucial and mission critical projects. Expert in translating business requirements",
         "into technical solutions and keen about quality, usability, security, and scalability"
     ]
 }
@@ -26,7 +26,7 @@ export const about: resumeInfo.aboutMe = {
 export const skills: resumeInfo.skill = {
     soft: [
         { icon: "👂", text: "Requirement Gathering" },
-        { icon: "☁", text: "Analysis and Design" },
+        { icon: "🧱", text: "Analysis and Design" },
         { icon: "👍", text: "Collaborative" },
     ],
     hard: [

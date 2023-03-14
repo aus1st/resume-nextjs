@@ -33,7 +33,7 @@ export default function SideBar() {
         
         <h3 className=''>Contact Me</h3>
         </div>
-        <div className='flex flex-row justify-center my-2 gap-4'>
+        <div className='flex flex-row justify-center my-2 gap-2'>
         <a className='icons-contactme' href={contactLinks?.[0]} aria-label="email link"><Envelope/></a>
         <a className='icons-contactme' href={contactLinks?.[1]} aria-label="twitter link"><Twitter/></a>
         <a className='icons-contactme' href={contactLinks?.[2]} aria-label="linkedin link"><Linkedin/></a>

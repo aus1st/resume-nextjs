@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className='flex flex-col sm:flex-row'>
         <SideBar/>
         
-        <main className='grow-full p-16 w-full sm:basis-2/3 ml-auto'>
+        <main className='grow-full p-8 sm:p-16 w-full sm:basis-2/3 ml-auto'>
         {children}
         </main>
         </body>

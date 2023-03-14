@@ -17,7 +17,7 @@ export interface skill {
 
 
 
-interface skillType {
+export interface skillType {
     icon: string,
     text: string
 }

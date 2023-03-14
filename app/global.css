@@ -28,3 +28,17 @@
 .icons-contactme {
     @apply text-2xl m-2;
 }
+
+section {
+    @apply mb-10
+}
+
+.btn{
+    @apply text-black px-4 uppercase text-lg sm:text-xl w-1/2 h-12 transition ease-in-out
+    hover:text-yellow-500 hover:bg-black duration-150
+
+}
+
+.skill {
+    @apply bg-yellow-100 mt-1 py-2 px-4 rounded-md w-fit
+}
