@@ -12,7 +12,7 @@ export interface aboutMe {
 
 export interface skill {
     soft: skillType[],
-    hard: skillType[],
+    tech: skillType[],
 }
 
 

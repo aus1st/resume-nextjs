@@ -4,7 +4,7 @@ import { useState } from "react"
 import { skillType } from "./models/resumeInfo";
 
 function activeSkills(sType: string) : skillType[] {
-    return sType === 'soft' ? skills.soft : skills.hard;
+    return sType === 'soft' ? skills.soft : skills.tech;
 }
 
 
@@ -18,14 +18,15 @@ export default function Skills() {
     const tabs = (
         <div>
                 <div className="flex gap-1">
-               {["soft","hard"].map((el)=>(
+               {["soft","tech"].map((el)=>(
                  <button key={el} 
                  className={`btn ${setBg(el)} ${setTextAlign(el)}`} 
                  onClick={()=> setActiveTab(el)}>{el} Skills
                  </button>
                ))}
          </div>
-         </div>)   
+         </div>
+         )   
     
     const content = (
         <ul className={`flex flex-row flex-wrap gap-2 list-none py-2 ${activeTab==='soft'?'justify-start':'justify-end'}`}>

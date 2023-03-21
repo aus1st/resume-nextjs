@@ -29,7 +29,7 @@ export const skills: resumeInfo.skill = {
         { icon: "🧱", text: "Analysis and Design" },
         { icon: "👍", text: "Collaborative" },
     ],
-    hard: [
+    tech: [
         { icon: "📺", text: "Javascript" },
         { icon: "👓", text: "Typescript" },
         { icon: "🎨", text: "tailwindcss" },
